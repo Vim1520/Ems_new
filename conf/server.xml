@@ -150,8 +150,8 @@
 <Realm className="org.apache.catalina.realm.JDBCRealm"
       driverName="com.mysql.cj.jdbc.Driver"
    connectionURL="jdbc:mysql://localhost/employeedb?user=root&amp;password=Vimal@2002"
-       userTable="users" userNameCol="user_name" userCredCol="user_pass"
-   userRoleTable="user_roles" roleNameCol="role_name"/>
+       userTable="employeedb" userNameCol="EmpID" userCredCol="pass"
+   userRoleTable="employeedb" roleNameCol="Rid"/>
 
                
       </Realm>
